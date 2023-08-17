@@ -1,0 +1,12 @@
+.main{
+    border-style: dotted;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 90%;
+    color: white;
+}
+
+.main h2{
+    font-weight: 100;
+}

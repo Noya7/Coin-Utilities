@@ -1,0 +1,73 @@
+.mainDiv{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    height: 70vh;
+    background-color: rgba(128, 54, 192, 0.353);
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+    border: 0.3vh solid rgba(145, 19, 255, 0.493);
+    border-bottom: none;
+}
+
+.mainDiv span{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainButton{
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+    font-size: 2vw;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.smallDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    border-style: dotted;
+}
+
+.mainDiv nav{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 6vh;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 16.66%;
+    height: 100%;
+    background-color: rgb(29, 3, 52);
+    text-decoration: none;
+    border-style: none;
+}
+
+.button_active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+    background-color: rgba(145, 19, 255, 0);
+    width: 16.66%;
+    background-color: none;
+    text-decoration: none;
+    border-style: none; 
+}
