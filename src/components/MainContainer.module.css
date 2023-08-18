@@ -5,24 +5,24 @@
     width: 60vw;
     height: 70vh;
     background-color: rgba(128, 54, 192, 0.353);
-    border-top-left-radius: 2vh;
-    border-top-right-radius: 2vh;
-    border: 0.3vh solid rgba(145, 19, 255, 0.493);
+    border-top: 0.45vh solid rgba(145, 19, 255, 0.493);
     border-bottom: none;
 }
 
 .mainDiv span{
     width: 100%;
-    height: 10%;
+    height: 12.5%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     border: 0,0,0,0;
 }
 
-.mainButton{
+.title{
     display: flex;
     justify-content: center;
     width: 50%;
-    font-size: 2vw;
+    font-size: 2.5vw;
     color: white;
     text-decoration: none;
     font-weight: 100;
@@ -69,6 +69,7 @@
     text-decoration: none;
     border-style: none;
     cursor:pointer;
+    font-size: 1.5vw;
 }
 
 .button:hover{
@@ -82,6 +83,7 @@
     text-decoration: none;
     border-style: none;
     cursor:pointer;
+    font-size: 1.5vw;
 }
 
 .button_active{
@@ -94,6 +96,7 @@
     width: 16.66%;
     background-color: none;
     text-decoration: none;
+    font-size: 1.5vw;
     border-bottom: 0.3vh solid rgba(145, 19, 255, 0.493);
     border-top: none;
     border-left: 0.3vh solid rgba(145, 19, 255, 0.493);

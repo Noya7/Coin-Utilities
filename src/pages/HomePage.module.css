@@ -1,8 +1,26 @@
+
+
 .home{
     width: 100vw;
-    height: 100vh;
+    height: 88vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(16, 16, 57);
+    background-color: #dadada;
+    background-image: url('../resources/images/10.jpg');
+    background-position: center;
+}
+
+.header{
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9e9e9;
+
+}
+
+.header svg{
+    width: 35%;
 }

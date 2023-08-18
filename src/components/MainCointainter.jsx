@@ -11,8 +11,7 @@ const MainContainer = () => {
   return (
     <div className={classes.mainDiv}>
       <span>
-        <Link className={classes.mainButton}>Dólar</Link>
-        <Link className={classes.mainButton}>Euro</Link>
+        <h1 className={classes.title}>Conversor de Moneda</h1>
       </span>
       <div className={classes.smallDiv}>
         <Display value={value} />

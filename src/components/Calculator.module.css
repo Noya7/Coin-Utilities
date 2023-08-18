@@ -6,19 +6,19 @@
     gap: 1vh;
     align-items: center;
     justify-content: flex-start;
-    border: 0.3vh solid rgba(145, 19, 255, 0.493);
+    border-top: 0.3vh solid rgba(145, 19, 255, 0.493);
     border-bottom: none;
 }
 
 .main h1{
-    width: 20vw;
+    width: 85%;
     text-align: center;
     color: white;
     font-size: 2.4vw;
     font-weight: 100;
     margin: 0.5vh 0 0 0;
     justify-self: flex-start;
-    border-bottom: 0.3vh solid rgba(145, 19, 255, 0.493);
+    border-bottom: 0.3vh solid rgba(145, 19, 255, 0.65);
 }
 
 .main label{
