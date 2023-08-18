@@ -15,27 +15,38 @@
     width: 100%;
     height: 10%;
     display: flex;
-    gap: 2vw;
-    justify-content: center;
-    align-items: center;
+    border: 0,0,0,0;
 }
 
 .mainButton{
     display: flex;
     justify-content: center;
-    width: 20vw;
+    width: 50%;
     font-size: 2vw;
     color: white;
     text-decoration: none;
     font-weight: 100;
 }
 
+.mainButton:hover{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    font-size: 2vw;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    background-color: rgba(72, 3, 132, 0.493);
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+}
+
+
 .smallDiv{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 60vh;
-    border-style: dotted;
 }
 
 .mainDiv nav{
@@ -57,6 +68,20 @@
     background-color: rgb(29, 3, 52);
     text-decoration: none;
     border-style: none;
+    cursor:pointer;
+}
+
+.button:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 16.66%;
+    height: 100%;
+    background-color: rgb(44, 4, 79);
+    text-decoration: none;
+    border-style: none;
+    cursor:pointer;
 }
 
 .button_active{
@@ -69,5 +94,8 @@
     width: 16.66%;
     background-color: none;
     text-decoration: none;
-    border-style: none; 
+    border-bottom: 0.3vh solid rgba(145, 19, 255, 0.493);
+    border-top: none;
+    border-left: 0.3vh solid rgba(145, 19, 255, 0.493);
+    border-right: 0.3vh solid rgba(145, 19, 255, 0.493);
 }
