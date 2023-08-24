@@ -5,6 +5,7 @@
     width: 60vw;
     height: 70vh;
     background-color: rgba(128, 54, 192, 0.353);
+    /* background-color: rgba(234, 229, 241, 0.551); */
     border-top: 0.45vh solid rgba(145, 19, 255, 0.493);
     border-bottom: none;
 }
