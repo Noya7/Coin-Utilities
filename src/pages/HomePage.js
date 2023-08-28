@@ -1,6 +1,6 @@
-import MainContainer from "../components/MainCointainter";
+import { Outlet } from "react-router-dom";
+import MainContainer from "../components/MainPage/MainCointainter";
 import classes from './HomePage.module.css'
-
 
 const icon = (
         <svg
@@ -111,6 +111,7 @@ const icon = (
 function HomePage(){
     return(
         <>
+        <Outlet />
         <header className={classes.header}>{icon}</header>
         <div className={classes.home}>
             <MainContainer />

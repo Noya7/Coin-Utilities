@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,500;9..40,700&display=swap');
+
+.containerDiv{
+    position: absolute;
+    width: max-content;
+    height: 100vh;
+    background-color: rgb(250, 244, 255);
+    border-right: 0.15vw solid rgb(42, 7, 73);
+    z-index: 5;
+    display: flex;
+}
+
+.close{
+    width: 4.5vw;
+    background-color: rgb(29, 3, 52);
+    border-right: 0.1vw solid rgb(42, 7, 73);
+    border-left: 0.1vw solid rgb(42, 7, 73);
+    border-top: none;
+    border-bottom: none;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+}
+
+.close:hover{
+    width: 4.5vw;
+    background-color: rgb(42, 7, 73);
+    border-right: 0.1vw solid rgb(42, 7, 73);
+    border-left: 0.1vw solid rgb(42, 7, 73);
+    border-top: none;border-bottom: none;
+    cursor: pointer;
+}
+
+.open{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2vw;
+    background-color: rgb(29, 3, 52);
+    border-right: 0.1vw solid rgb(42, 7, 73);
+    border-left: 0.1vw solid rgb(42, 7, 73);
+    border-top: none;
+    border-bottom: none;
+}
+
+.open:hover{
+    width: 2vw;
+    background-color: rgb(42, 7, 73);
+    border-right: 0.1vw solid rgb(42, 7, 73);
+    border-left: 0.1vw solid rgb(42, 7, 73);
+    border-top: none;border-bottom: none;
+    cursor: pointer;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2vw;
+}
+
+.mainDiv{
+    width: 38.2vw;
+    border: 0.1vw solid rgb(42, 7, 73);;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    width: 38.2vw;
+    height: 15vh;
+    border-bottom: 0.15vw solid rgb(29, 3, 52);
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    font-size: 3vw;
+    margin: 0 0 0 0;
+    background-color: rgb(29, 3, 52);
+}
+
+.sources{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 3, 52);
+    border-bottom: 0.15vw solid rgb(29, 3, 52);
+}
+
+.button{
+    width: 12.73vw;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.8vw;
+    font-weight: 200;
+    border-style: none;
+    background-color: rgb(29, 3, 52);
+}
+
+.button:hover{
+    width: 12.73vw;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.8vw;
+    font-weight: 200;
+    border-style: none;
+    background-color: rgb(42, 7, 73);
+}
+
+.active{
+    width: 12.73vw;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.8vw;
+    font-weight: 200;
+    border-style: none;
+    background-color: rgb(42, 7, 73);
+}
+
+@media (max-width: 764px){
+    .containerDiv{
+        width: max-content;
+    }
+    
+    .close{
+        width: 12vw;
+    }
+    
+    .close:hover{
+        width: 12vw;
+    }
+    
+    .open{
+        width: 9.5vw;
+    }
+    
+    .open:hover{
+        width: 9.5vw;
+    }
+    
+    .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8vw;
+    }
+    
+    .mainDiv{
+        width: 90vw;
+        border: 0.1vw solid rgb(42, 7, 73);;
+    }
+    
+    .title{
+        width: 90vw;
+        height: max-content;
+        font-weight: 200;
+        font-size: 9vw;
+    }
+    
+    .sources{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(29, 3, 52);
+        border-bottom: 0.15vw solid rgb(29, 3, 52);
+    }
+    
+    .button{
+        width: 40vw;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 6.5vw;
+        font-weight: 200;
+        border-style: none;
+        background-color: rgb(29, 3, 52);
+    }
+    
+    .button:hover{
+        width: 40vw;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 6.5vw;
+        font-weight: 200;
+        border-style: none;
+        background-color: rgb(42, 7, 73);
+    }
+    
+    .active{
+        width: 40vw;
+        font-size: 6.5vw;
+        font-weight: 200;
+    }
+
+}

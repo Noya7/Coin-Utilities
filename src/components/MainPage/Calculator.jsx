@@ -18,7 +18,6 @@ function Calculator({value}){
     }
     
     const calculator = useCallback( () => {
-      console.log('running calculator')
       const input = inputRef.current.value;
       const multiplier = direction === 'DP' ? venta : (1/venta)
       const result = input*multiplier;

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,500;9..40,700&display=swap');
+
+li{
+    list-style-type: none;
+    width: 37vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    border-bottom: 0.1vw solid grey;
+    font-family: 'DM Sans', sans-serif;
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
+    align-items: center;
+}
+
+li:hover{
+    list-style-type: none;
+    width: 37vw;
+    display: flex;
+    flex-direction: column; 
+    gap: 1vh;
+    border-bottom: 0.1vw solid grey;
+    font-family: 'DM Sans', sans-serif;
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
+    align-items: center;
+    background-color: rgba(128, 54, 192, 0.107);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+h1{
+    font-size: 2vw;
+    font-weight: 500;
+    margin: 0 0 0 0;
+    text-align: justify;
+}
+
+a img{
+    width: 37vw;
+    height: 35vh;
+    object-fit: cover;
+    align-self: center;
+}
+
+.description{
+    font-size: 1.3vw;
+    margin: 0 0 0 0;
+    text-align: justify;
+}
+
+.date{
+    color: grey;
+    align-self: flex-end;
+    font-size: 1vw;
+    margin: 0 0 0 0;
+}
+
+@media (max-width: 764px){
+    li{
+        width: 98%;
+        gap: 2.3vh;
+    }
+    
+    li:hover{
+        width: 98%;
+        gap: 2.3vh;
+    }
+    
+    h1{
+        font-size: 5.5vw;
+        font-weight: 300;
+    }
+    
+    a img{
+        width: 100%;
+    }
+    
+    .description{
+        font-size: 4vw;
+        font-weight: 300;
+    }
+    
+    .date{
+        font-size: 3vw;
+        font-weight: 200;
+    }
+}
